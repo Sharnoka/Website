@@ -33,7 +33,9 @@ p{
   margin-left: 10px;
   margin-right: 10px; */
   padding: 5px;
-  border-radius: 15px 15px 0px 15px;
+  border-radius: 15px 15px 15px 15px;
+  border-style: inset;
+  border-color: #101010;
   }
 
 a {
@@ -61,6 +63,7 @@ img {
   text-align: center;
   /* width: 400px;
   height: 300px; */
+  /* border-radius: 5px; */
 }
 
 h1, h2, h3, h4 {
@@ -68,6 +71,7 @@ h1, h2, h3, h4 {
   font-style: italic;
   padding-top: 0px;
   padding-bottom: 0px;
+  clear: both;
   }
 
 /* header{
@@ -77,12 +81,12 @@ h1, h2, h3, h4 {
   /* border-bottom: 5px solid black; */
 }
 
-footer{
-  /* border-top: 5px solid black;
+/* footer{
+  border-top: 5px solid black;
   border-bottom: 5px solid black;
   border-left: 7px solid black;
-  border-right: 7px solid black; */
-}
+  border-right: 7px solid black;
+} */
 
 h1{
   color: #fde816;
@@ -151,7 +155,8 @@ h5{
     text-align: center;
     margin: auto 0;
     padding: 5px;
-  }
+    width: 800px;
+    }
 
 h6{
     color: #101010;
@@ -161,6 +166,7 @@ h6{
     margin: auto 0;
     padding-bottom: 10px;
     border-bottom: 5px solid black;
+    /* width: 800px; */
     /* border-right: 5px solid black;
     border-left: 5px solid black; */
 
@@ -209,23 +215,92 @@ h6{
   margin-right: 0px;
   padding-top: 0px;
   margin-top: 0px; */
-
 }
-/* .bio {
-  width: auto;
-} */
-
-/* .supermoves {
-  margin: 0 auto;
-  width: auto;
+.float-image {
+  float: left;
 }
 
-.equipment {
-  margin: 0 auto;
-  width: auto
+.float-1-1 {
+  float: right;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 17px;
+  border-radius: 5px 5px 5px 5px;
 }
 
-.abilities {
-  margin: 0 auto;
-  width: auto;
-} */
+.float-1-2 {
+  float: right;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 17px;
+  /* padding-bottom: 5px; */
+  /* border-radius: 5px 5px 5px 5px; */
+}
+
+.float-1-3 {
+  float: right;
+  padding-top: 5px;
+  padding-right: 15px;
+  /* padding-bottom: 5px; */
+  padding-left: 10px;
+  /* border-radius: 5px 5px 5px 5px; */
+}
+
+.float-1-4 {
+  float: right;
+  padding-top: 5px;
+  /* padding-bottom: 32px; */
+  padding-right: 15px;
+  padding-left: 10px;
+  /* border-radius: 5px 5px 5px 5px; */
+}
+
+.float-2-1 {
+  float: left;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 10px;
+  /* border-radius: 10px 10px 10px 10px; */
+}
+
+.float-2-2 {
+  float: left;
+  padding-top: 5px;
+  padding-left: 15px;
+  /* padding-bottom: 0px; */
+  padding-right: 10px;
+  /* border-radius: 5px 5px 5px 5px; */
+}
+
+.float-2-3 {
+  float: left;
+  padding-top: 5px;
+  padding-left: 16px;
+  /* padding-bottom: 5px; */
+  padding-right: 15px;
+  /* border-radius: 5px 5px 5px 5px; */
+}
+
+.float-2-4 {
+  float: left;
+  padding-top: 5px;
+  /* padding-bottom: 125px; */
+  padding-right: 10px;
+  padding-left: 15px;
+  /* border-radius: 5px 5px 5px 5px; */
+}
+
+section {
+  clear: both;
+}
+
+.column {
+  width: 50%;
+  float: left;
+}
+
+.p-hero {
+  text-align: center;
+  margin-right: 60px;
+  margin-left: 60px;
+}
